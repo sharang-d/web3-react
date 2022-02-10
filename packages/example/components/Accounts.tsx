@@ -52,6 +52,7 @@ export function Accounts({
               <ul key={account} style={{ margin: 0, overflow: 'hidden', textOverflow: 'ellipsis' }}>
                 {ENSNames?.[i] ?? account}
                 {balances?.[i] ? ` (Ξ${formatEther(balances[i])})` : null}
+                {`FWEB3: show number of tokens here`}
               </ul>
             ))}
       </b>
